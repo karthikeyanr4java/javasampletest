@@ -8,7 +8,7 @@ public class SampledemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SampledemoApplication.class, args);
-		System.out.printin("Hello Test with maven");
+		System.out.println("Hello Test with maven");
 	}
 
 }
