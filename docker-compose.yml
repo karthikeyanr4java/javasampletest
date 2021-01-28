@@ -14,3 +14,9 @@ services:
     environment:
       KAFKA_ADVERTISED_HOST_NAME: localhost
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+  
+  sampletest:
+    image: karthikeyanr4java/javasampletest
+    container_name: sampletest
+    ports:
+    - 5000:5000
